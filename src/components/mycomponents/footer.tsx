@@ -23,7 +23,7 @@ export default function Footer() {
                        value={value}
                        onChange={handleChange}
                        placeholder='Entrez votre e-mail'
-                       className='border-none outline-none pl-4 bg-white dark:bg-[#222] dark:text-gray-300 w-[70%]'
+                       className='border-none outline-none pl-4 bg-white dark:bg-black dark:focus:bg-[#333] dark:text-gray-300 w-[70%]'
                 />
                 <button className='bg-[#444] w-[30%] border-none text-white'>S'abonner</button>
             </div>

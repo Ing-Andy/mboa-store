@@ -7,8 +7,8 @@ import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar'
 
 export default function Bloc() {
     return (
-        <div className="flex flex-col justify-start group h-full hover:z-10 Shadow1 ">
-            <Card className='w-44 min-h-60 max-h-60 h-60 mt-0 rounded-none group-hover:shadow-none' >
+        <div className="flex flex-col justify-start group w-full h-full hover:z-10">
+            <Card className='w-44 min-h-60 max-h-60 h-60 mt-0 rounded-none group-hover:border-none group-hover:shadow-none' >
                 <CardHeader className=' gap-0 '>
                     <CardTitle className='inter text-[12px] ' >Marque </CardTitle>
                     <CardDescription className='text-blue-500 inter text-[14px] font-bold ' >En magasin </CardDescription>
@@ -21,7 +21,7 @@ export default function Bloc() {
                         <p className='font-bold'> 15 000 F</p>
                         <s className='text-sm text-red-500'>18 000 f</s>
                     </div>
-                    <div className="flex justify-center items-center rounded-full hover:bg-amber-300 w-8 h-8 hover:text-red-400 ">
+                    <div className="flex justify-center items-center rounded-full hover:bg-amber-300 w-8 h-8 hover:text-red-400 duration-500 ">
                         <ChevronRight />
                     </div>
                 </CardFooter>

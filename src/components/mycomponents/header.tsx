@@ -7,7 +7,7 @@ import { ContactMail, Mail, Map, Phone, Search } from "@mui/icons-material";
 import { useState } from "react";
 
 
-export default function header() {
+export default function Header() {
     const { theme, setTheme } = useTheme();
     const [value,setValue] = useState<string>('');
     const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

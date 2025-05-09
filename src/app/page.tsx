@@ -17,16 +17,12 @@ export default function page() {
           <Carousel className="h-full w-full flex items-center justify-center overflow-hidden">
             <CarouselContent className="flex  items-center w-[100vw] h-[100vh] m-0 headerAffiche ">
               <CarouselItem className="flex items-center justify-start">
-                {/* <div > */}
                 <div className="flex flex-col flex-wrap justify-around h-[300px] items-center w-[50%] backdrop-blur-sm">
                   <span className="text-blue-400 text-xl">Achetez  pour obtenir ce que vous aimez </span>
                   <p className="text-black text-3xl text-center"> Des livres <br/> de <span className="text-shadow-2xs uppercase font-bold">devellopement personnels</span> a votre disposition en un click <br />quoi de mieux que d'investire sur vous meme</p>
                   <Button className="bg-amber-300 text-black px-8 py-4 duration-500 hover:bg-blue-400">Achetez maintenant</Button>
-                {/* </div> */}
-              </div>
+                </div>
               </CarouselItem>
-              {/* <CarouselItem>...</CarouselItem>
-              <CarouselItem>...</CarouselItem> */}
             </CarouselContent>
             <CarouselPrevious />
             <CarouselNext />
@@ -43,22 +39,22 @@ export default function page() {
                   <hr className="bg-amber-300 mb-[-1px] w-[20%]" />
                   <hr className="bg-gray-800"/>
               </div>
-              <ul className=" flex flex-wrap *:h-60 *:hover:h-68 *:duration-300 *:hover:z-20 *:ease-in-out *:mr-2 *:overflow-hidden ">
-                <li className="hover:shadow-Shadow1"><Bloc /></li>
-                <li><Bloc /></li>
-                <li><Bloc /></li>
-                <li><Bloc /></li>
-                <li className="border-none"><Bloc /></li>
-                <li><Bloc /></li>
-                <li><Bloc /></li>
-                <li><Bloc /></li>
-                <li><Bloc /></li>
-                <li className="border-none"><Bloc /></li>
-                <li><Bloc /></li>
-                <li><Bloc /></li>
-                <li><Bloc /></li>
-                <li><Bloc /></li>
-                <li className="border-none"><Bloc /></li>
+              <ul className="w-full space-y-2 p-4 relative gap-2 flex flex-wrap *:h-60 *:overflow-hidden *:z-0 *:transition-all *:duration-400 *:ease-in-out *:relative *:hover:relative *:hover:h-68 *:flex-grow *:hover:z-10">
+                <li className="Shadow1"><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="border-none Shadow1  "><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="border-none Shadow1 relative"><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="Shadow1"><Bloc /></li>
+                <li className="border-none Shadow1"><Bloc /></li>
               </ul>
           </section>
         </main>
